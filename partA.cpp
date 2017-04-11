@@ -6,7 +6,7 @@
 using namespace std;
 int main(){
 int number,total=0;
-ifstream inFile("testfile",ios::in);
+ifstream inFile("file.in",ios::in);
 inFile>>number;
 vector<int>v(number);
 for(int i=0;i<number;++i){
